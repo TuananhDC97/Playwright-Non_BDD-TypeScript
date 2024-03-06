@@ -1,0 +1,661 @@
+<testsuites id="" name="" tests="49" failures="2" skipped="0" errors="0" time="148.583">
+<testsuite name="frontend\cart.spec.ts" timestamp="1652196342915" hostname="" tests="2" failures="0" skipped="0" time="12.775" errors="0">
+<testcase name="Add item to cart from category page new item is added into the cart at header" classname="[frontend-chromium] › frontend\cart.spec.ts:17:5 › Add item to cart from category page › new item is added into the cart at header" time="6.96">
+<system-out>
+
+[[ATTACHMENT|..\test-results\cart-Add-item-to-cart-from-category-page-new-item-is-added-into-the-cart-at-header-frontend-chromium\trace.zip]]
+
+</system-out>
+</testcase>
+<testcase name="Add item to cart from category page new item is added into the cart in cart page" classname="[frontend-chromium] › frontend\cart.spec.ts:23:5 › Add item to cart from category page › new item is added into the cart in cart page" time="5.815">
+<system-out>
+
+[[ATTACHMENT|..\test-results\cart-Add-item-to-cart-from-category-page-new-item-is-added-into-the-cart-in-cart-page-frontend-chromium\trace.zip]]
+
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="frontend\home-page.spec.ts" timestamp="1652196342915" hostname="" tests="3" failures="0" skipped="0" time="5.011" errors="0">
+<testcase name="HomePage should display correctly" classname="[frontend-chromium] › frontend\home-page.spec.ts:9:5 › HomePage › should display correctly" time="2.324">
+<system-out>
+
+[[ATTACHMENT|..\test-results\home-page-HomePage-should-display-correctly-frontend-chromium\trace.zip]]
+
+</system-out>
+</testcase>
+<testcase name="HomePage Navigation should navigate to Register page when clicking on Register link" classname="[frontend-chromium] › frontend\home-page.spec.ts:20:5 › HomePage Navigation › should navigate to Register page when clicking on Register link" time="1.463">
+<system-out>
+
+[[ATTACHMENT|..\test-results\home-page-HomePage-Navigation-should-navigate-to-Register-page-when-clicking-on-Register-link-frontend-chromium\trace.zip]]
+
+</system-out>
+</testcase>
+<testcase name="HomePage Navigation should navigate to Login page when clicking on Login link" classname="[frontend-chromium] › frontend\home-page.spec.ts:25:5 › HomePage Navigation › should navigate to Login page when clicking on Login link" time="1.224">
+<system-out>
+
+[[ATTACHMENT|..\test-results\home-page-HomePage-Navigation-should-navigate-to-Login-page-when-clicking-on-Login-link-frontend-chromium\trace.zip]]
+
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="frontend\login.spec.ts" timestamp="1652196342915" hostname="" tests="6" failures="0" skipped="0" time="11.822" errors="0">
+<testcase name="login page displays correctly" classname="[frontend-chromium] › frontend\login.spec.ts:9:1 › login page displays correctly" time="1.647">
+<system-out>
+
+[[ATTACHMENT|..\test-results\login-login-page-displays-correctly-frontend-chromium\trace.zip]]
+
+</system-out>
+</testcase>
+<testcase name="Login successfully Login with valid account" classname="[frontend-chromium] › frontend\login.spec.ts:18:5 › Login successfully › Login with valid account" time="2.7">
+<system-out>
+
+[[ATTACHMENT|..\test-results\login-Login-successfully-Login-with-valid-account-frontend-chromium\trace.zip]]
+
+</system-out>
+</testcase>
+<testcase name="Login unsuccessfully Login with blank fields" classname="[frontend-chromium] › frontend\login.spec.ts:33:5 › Login unsuccessfully › Login with blank fields" time="1.84">
+<system-out>
+
+[[ATTACHMENT|..\test-results\login-Login-unsuccessfully-Login-with-blank-fields-frontend-chromium\trace.zip]]
+
+</system-out>
+</testcase>
+<testcase name="Login unsuccessfully Login with invalid fields" classname="[frontend-chromium] › frontend\login.spec.ts:43:5 › Login unsuccessfully › Login with invalid fields" time="1.854">
+<system-out>
+
+[[ATTACHMENT|..\test-results\login-Login-unsuccessfully-Login-with-invalid-fields-frontend-chromium\trace.zip]]
+
+</system-out>
+</testcase>
+<testcase name="Login unsuccessfully Login with not existed account" classname="[frontend-chromium] › frontend\login.spec.ts:53:5 › Login unsuccessfully › Login with not existed account" time="1.573">
+<system-out>
+
+[[ATTACHMENT|..\test-results\login-Login-unsuccessfully-Login-with-not-existed-account-frontend-chromium\trace.zip]]
+
+</system-out>
+</testcase>
+<testcase name="Login unsuccessfully Login with incorrect password" classname="[frontend-chromium] › frontend\login.spec.ts:66:5 › Login unsuccessfully › Login with incorrect password" time="2.208">
+<system-out>
+
+[[ATTACHMENT|..\test-results\login-Login-unsuccessfully-Login-with-incorrect-password-frontend-chromium\trace.zip]]
+
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="frontend\product.spec.ts" timestamp="1652196342915" hostname="" tests="2" failures="0" skipped="0" time="2.58" errors="0">
+<testcase name="View mode product page displays book in grid format in default" classname="[frontend-chromium] › frontend\product.spec.ts:25:5 › View mode › product page displays book in grid format in default" time="1.092">
+<system-out>
+
+[[ATTACHMENT|..\test-results\product-View-mode-product-page-displays-book-in-grid-format-in-default-frontend-chromium\trace.zip]]
+
+</system-out>
+</testcase>
+<testcase name="View mode product page displays book in list format" classname="[frontend-chromium] › frontend\product.spec.ts:39:5 › View mode › product page displays book in list format" time="1.488">
+<system-out>
+
+[[ATTACHMENT|..\test-results\product-View-mode-product-page-displays-book-in-list-format-frontend-chromium\trace.zip]]
+
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="frontend\register.spec.ts" timestamp="1652196342915" hostname="" tests="6" failures="0" skipped="0" time="11.313" errors="0">
+<testcase name="register page displays correctly" classname="[frontend-chromium] › frontend\register.spec.ts:9:1 › register page displays correctly" time="1.871">
+<system-out>
+
+[[ATTACHMENT|..\test-results\register-register-page-displays-correctly-frontend-chromium\trace.zip]]
+
+</system-out>
+</testcase>
+<testcase name="register a new user register an account" classname="[frontend-chromium] › frontend\register.spec.ts:18:5 › register a new user › register an account" time="3.313">
+<system-out>
+
+[[ATTACHMENT|..\test-results\register-register-a-new-user-register-an-account-frontend-chromium\trace.zip]]
+
+</system-out>
+</testcase>
+<testcase name="register with invalid info blank fields" classname="[frontend-chromium] › frontend\register.spec.ts:57:5 › register with invalid info › blank fields" time="0.889">
+<system-out>
+
+[[ATTACHMENT|..\test-results\register-register-with-invalid-info-blank-fields-frontend-chromium\trace.zip]]
+
+</system-out>
+</testcase>
+<testcase name="register with invalid info invalid fields" classname="[frontend-chromium] › frontend\register.spec.ts:78:5 › register with invalid info › invalid fields" time="0.997">
+<system-out>
+
+[[ATTACHMENT|..\test-results\register-register-with-invalid-info-invalid-fields-frontend-chromium\trace.zip]]
+
+</system-out>
+</testcase>
+<testcase name="register with invalid info password not match" classname="[frontend-chromium] › frontend\register.spec.ts:99:5 › register with invalid info › password not match" time="1.913">
+<system-out>
+
+[[ATTACHMENT|..\test-results\register-register-with-invalid-info-password-not-match-frontend-chromium\trace.zip]]
+
+</system-out>
+</testcase>
+<testcase name="register with invalid info register with an existed email" classname="[frontend-chromium] › frontend\register.spec.ts:120:5 › register with invalid info › register with an existed email" time="2.33">
+<system-out>
+
+[[ATTACHMENT|..\test-results\register-register-with-invalid-info-register-with-an-existed-email-frontend-chromium\trace.zip]]
+
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="demo\data_driven\manga-search.spec.ts" timestamp="1652196342915" hostname="" tests="3" failures="2" skipped="0" time="59.215" errors="0">
+<testcase name="Manga Search search for manga: Fullmetal Alchemist " classname="[Demo Mobile Chrome] › demo\data_driven\manga-search.spec.ts:30:9 › Manga Search › search for manga: Fullmetal Alchemist " time="25.795">
+<system-out>
+
+[[ATTACHMENT|..\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Fullmetal-Alchemist--Demo-Mobile-Chrome\Manga-Search-search-for-manga-Fullmetal-Alchemist-3-expected.png]]
+
+[[ATTACHMENT|..\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Fullmetal-Alchemist--Demo-Mobile-Chrome\Manga-Search-search-for-manga-Fullmetal-Alchemist-3-actual.png]]
+
+[[ATTACHMENT|..\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Fullmetal-Alchemist--Demo-Mobile-Chrome\Manga-Search-search-for-manga-Fullmetal-Alchemist-3-diff.png]]
+
+[[ATTACHMENT|..\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Fullmetal-Alchemist--Demo-Mobile-Chrome\trace.zip]]
+value 1 Fullmetal Alchemist foobar1
+
+[[ATTACHMENT|..\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Fullmetal-Alchemist--Demo-Mobile-Chrome-retry1\trace.zip]]
+
+</system-out>
+</testcase>
+<testcase name="Manga Search search for manga: Spy x Family " classname="[Demo Mobile Chrome] › demo\data_driven\manga-search.spec.ts:30:9 › Manga Search › search for manga: Spy x Family " time="21.034">
+<failure message="manga-search.spec.ts:30:9 search for manga: Spy x Family " type="FAILURE">
+  [Demo Mobile Chrome] › demo\data_driven\manga-search.spec.ts:30:9 › Manga Search › search for manga: Spy x Family  
+
+    Error: Screenshot comparison failed:
+
+      4832 pixels (ratio 0.01 of all image pixels) are different
+
+    Expected: D:\research\automation\playwright\typescript\playwright-nopcommerce\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Spy-x-Family--Demo-Mobile-Chrome\Manga-Search-search-for-manga-Spy-x-Family-1-expected.png
+    Received: D:\research\automation\playwright\typescript\playwright-nopcommerce\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Spy-x-Family--Demo-Mobile-Chrome\Manga-Search-search-for-manga-Spy-x-Family-1-actual.png
+        Diff: D:\research\automation\playwright\typescript\playwright-nopcommerce\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Spy-x-Family--Demo-Mobile-Chrome\Manga-Search-search-for-manga-Spy-x-Family-1-diff.png
+
+      22 |         animations: 'disabled',
+      23 |         mask: [page.locator('.widget-content'), page.locator('.banner-header-anime-straming'), page.locator('.ranking-unit')]
+    > 24 |     })).toMatchSnapshot();
+         |         ^
+      25 | });
+      26 |
+      27 | test.describe('Manga Search', () => {
+
+        at D:\research\automation\playwright\typescript\playwright-nopcommerce\tests\demo\data_driven\manga-search.spec.ts:24:9
+
+    attachment #1: Manga-Search-search-for-manga-Spy-x-Family-1-expected.png (image/png) -----------
+    test-results\data_driven-manga-search-Manga-Search-search-for-manga-Spy-x-Family--Demo-Mobile-Chrome\Manga-Search-search-for-manga-Spy-x-Family-1-expected.png
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: Manga-Search-search-for-manga-Spy-x-Family-1-actual.png (image/png) -------------
+    test-results\data_driven-manga-search-Manga-Search-search-for-manga-Spy-x-Family--Demo-Mobile-Chrome\Manga-Search-search-for-manga-Spy-x-Family-1-actual.png
+    ------------------------------------------------------------------------------------------------
+
+    attachment #3: Manga-Search-search-for-manga-Spy-x-Family-1-diff.png (image/png) ---------------
+    test-results\data_driven-manga-search-Manga-Search-search-for-manga-Spy-x-Family--Demo-Mobile-Chrome\Manga-Search-search-for-manga-Spy-x-Family-1-diff.png
+    ------------------------------------------------------------------------------------------------
+
+    attachment #4: trace (application/zip) ---------------------------------------------------------
+    test-results\data_driven-manga-search-Manga-Search-search-for-manga-Spy-x-Family--Demo-Mobile-Chrome\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\data_driven-manga-search-Manga-Search-search-for-manga-Spy-x-Family--Demo-Mobile-Chrome\trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    Retry #1 ---------------------------------------------------------------------------------------
+
+    Error: Screenshot comparison failed:
+
+      47524 pixels (ratio 0.01 of all image pixels) are different
+
+    Expected: D:\research\automation\playwright\typescript\playwright-nopcommerce\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Spy-x-Family--Demo-Mobile-Chrome-retry1\Manga-Search-search-for-manga-Spy-x-Family-3-expected.png
+    Received: D:\research\automation\playwright\typescript\playwright-nopcommerce\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Spy-x-Family--Demo-Mobile-Chrome-retry1\Manga-Search-search-for-manga-Spy-x-Family-3-actual.png
+        Diff: D:\research\automation\playwright\typescript\playwright-nopcommerce\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Spy-x-Family--Demo-Mobile-Chrome-retry1\Manga-Search-search-for-manga-Spy-x-Family-3-diff.png
+
+      69 |                 animations: 'disabled',
+      70 |                 mask: [page.locator('.banner-header-anime-straming')]
+    > 71 |             })).toMatchSnapshot();
+         |                 ^
+      72 |
+      73 |             console.log(record.test_case, record.manga_name, record.some_other_value);
+      74 |         });
+
+        at D:\research\automation\playwright\typescript\playwright-nopcommerce\tests\demo\data_driven\manga-search.spec.ts:71:17
+
+    attachment #1: Manga-Search-search-for-manga-Spy-x-Family-3-expected.png (image/png) -----------
+    test-results\data_driven-manga-search-Manga-Search-search-for-manga-Spy-x-Family--Demo-Mobile-Chrome-retry1\Manga-Search-search-for-manga-Spy-x-Family-3-expected.png
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: Manga-Search-search-for-manga-Spy-x-Family-3-actual.png (image/png) -------------
+    test-results\data_driven-manga-search-Manga-Search-search-for-manga-Spy-x-Family--Demo-Mobile-Chrome-retry1\Manga-Search-search-for-manga-Spy-x-Family-3-actual.png
+    ------------------------------------------------------------------------------------------------
+
+    attachment #3: Manga-Search-search-for-manga-Spy-x-Family-3-diff.png (image/png) ---------------
+    test-results\data_driven-manga-search-Manga-Search-search-for-manga-Spy-x-Family--Demo-Mobile-Chrome-retry1\Manga-Search-search-for-manga-Spy-x-Family-3-diff.png
+    ------------------------------------------------------------------------------------------------
+
+    attachment #4: trace (application/zip) ---------------------------------------------------------
+    test-results\data_driven-manga-search-Manga-Search-search-for-manga-Spy-x-Family--Demo-Mobile-Chrome-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\data_driven-manga-search-Manga-Search-search-for-manga-Spy-x-Family--Demo-Mobile-Chrome-retry1\trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    Retry #2 ---------------------------------------------------------------------------------------
+
+    Error: Screenshot comparison failed:
+
+      4832 pixels (ratio 0.01 of all image pixels) are different
+
+    Expected: D:\research\automation\playwright\typescript\playwright-nopcommerce\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Spy-x-Family--Demo-Mobile-Chrome-retry2\Manga-Search-search-for-manga-Spy-x-Family-1-expected.png
+    Received: D:\research\automation\playwright\typescript\playwright-nopcommerce\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Spy-x-Family--Demo-Mobile-Chrome-retry2\Manga-Search-search-for-manga-Spy-x-Family-1-actual.png
+        Diff: D:\research\automation\playwright\typescript\playwright-nopcommerce\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Spy-x-Family--Demo-Mobile-Chrome-retry2\Manga-Search-search-for-manga-Spy-x-Family-1-diff.png
+
+      22 |         animations: 'disabled',
+      23 |         mask: [page.locator('.widget-content'), page.locator('.banner-header-anime-straming'), page.locator('.ranking-unit')]
+    > 24 |     })).toMatchSnapshot();
+         |         ^
+      25 | });
+      26 |
+      27 | test.describe('Manga Search', () => {
+
+        at D:\research\automation\playwright\typescript\playwright-nopcommerce\tests\demo\data_driven\manga-search.spec.ts:24:9
+
+    attachment #1: Manga-Search-search-for-manga-Spy-x-Family-1-expected.png (image/png) -----------
+    test-results\data_driven-manga-search-Manga-Search-search-for-manga-Spy-x-Family--Demo-Mobile-Chrome-retry2\Manga-Search-search-for-manga-Spy-x-Family-1-expected.png
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: Manga-Search-search-for-manga-Spy-x-Family-1-actual.png (image/png) -------------
+    test-results\data_driven-manga-search-Manga-Search-search-for-manga-Spy-x-Family--Demo-Mobile-Chrome-retry2\Manga-Search-search-for-manga-Spy-x-Family-1-actual.png
+    ------------------------------------------------------------------------------------------------
+
+    attachment #3: Manga-Search-search-for-manga-Spy-x-Family-1-diff.png (image/png) ---------------
+    test-results\data_driven-manga-search-Manga-Search-search-for-manga-Spy-x-Family--Demo-Mobile-Chrome-retry2\Manga-Search-search-for-manga-Spy-x-Family-1-diff.png
+    ------------------------------------------------------------------------------------------------
+
+    attachment #4: trace (application/zip) ---------------------------------------------------------
+    test-results\data_driven-manga-search-Manga-Search-search-for-manga-Spy-x-Family--Demo-Mobile-Chrome-retry2\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\data_driven-manga-search-Manga-Search-search-for-manga-Spy-x-Family--Demo-Mobile-Chrome-retry2\trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+</failure>
+<system-out>
+
+[[ATTACHMENT|..\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Spy-x-Family--Demo-Mobile-Chrome\Manga-Search-search-for-manga-Spy-x-Family-1-expected.png]]
+
+[[ATTACHMENT|..\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Spy-x-Family--Demo-Mobile-Chrome\Manga-Search-search-for-manga-Spy-x-Family-1-actual.png]]
+
+[[ATTACHMENT|..\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Spy-x-Family--Demo-Mobile-Chrome\Manga-Search-search-for-manga-Spy-x-Family-1-diff.png]]
+
+[[ATTACHMENT|..\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Spy-x-Family--Demo-Mobile-Chrome\trace.zip]]
+
+[[ATTACHMENT|..\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Spy-x-Family--Demo-Mobile-Chrome-retry1\Manga-Search-search-for-manga-Spy-x-Family-3-expected.png]]
+
+[[ATTACHMENT|..\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Spy-x-Family--Demo-Mobile-Chrome-retry1\Manga-Search-search-for-manga-Spy-x-Family-3-actual.png]]
+
+[[ATTACHMENT|..\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Spy-x-Family--Demo-Mobile-Chrome-retry1\Manga-Search-search-for-manga-Spy-x-Family-3-diff.png]]
+
+[[ATTACHMENT|..\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Spy-x-Family--Demo-Mobile-Chrome-retry1\trace.zip]]
+
+[[ATTACHMENT|..\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Spy-x-Family--Demo-Mobile-Chrome-retry2\Manga-Search-search-for-manga-Spy-x-Family-1-expected.png]]
+
+[[ATTACHMENT|..\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Spy-x-Family--Demo-Mobile-Chrome-retry2\Manga-Search-search-for-manga-Spy-x-Family-1-actual.png]]
+
+[[ATTACHMENT|..\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Spy-x-Family--Demo-Mobile-Chrome-retry2\Manga-Search-search-for-manga-Spy-x-Family-1-diff.png]]
+
+[[ATTACHMENT|..\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Spy-x-Family--Demo-Mobile-Chrome-retry2\trace.zip]]
+
+</system-out>
+</testcase>
+<testcase name="Manga Search search for manga: Hi no Tori " classname="[Demo Mobile Chrome] › demo\data_driven\manga-search.spec.ts:30:9 › Manga Search › search for manga: Hi no Tori " time="12.386">
+<failure message="manga-search.spec.ts:30:9 search for manga: Hi no Tori " type="FAILURE">
+  [Demo Mobile Chrome] › demo\data_driven\manga-search.spec.ts:30:9 › Manga Search › search for manga: Hi no Tori  
+
+    Error: Screenshot comparison failed:
+
+      8708 pixels (ratio 0.01 of all image pixels) are different
+
+    Expected: D:\research\automation\playwright\typescript\playwright-nopcommerce\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Hi-no-Tori--Demo-Mobile-Chrome\Manga-Search-search-for-manga-Hi-no-Tori-1-expected.png
+    Received: D:\research\automation\playwright\typescript\playwright-nopcommerce\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Hi-no-Tori--Demo-Mobile-Chrome\Manga-Search-search-for-manga-Hi-no-Tori-1-actual.png
+        Diff: D:\research\automation\playwright\typescript\playwright-nopcommerce\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Hi-no-Tori--Demo-Mobile-Chrome\Manga-Search-search-for-manga-Hi-no-Tori-1-diff.png
+
+      22 |         animations: 'disabled',
+      23 |         mask: [page.locator('.widget-content'), page.locator('.banner-header-anime-straming'), page.locator('.ranking-unit')]
+    > 24 |     })).toMatchSnapshot();
+         |         ^
+      25 | });
+      26 |
+      27 | test.describe('Manga Search', () => {
+
+        at D:\research\automation\playwright\typescript\playwright-nopcommerce\tests\demo\data_driven\manga-search.spec.ts:24:9
+
+    attachment #1: Manga-Search-search-for-manga-Hi-no-Tori-1-expected.png (image/png) -------------
+    test-results\data_driven-manga-search-Manga-Search-search-for-manga-Hi-no-Tori--Demo-Mobile-Chrome\Manga-Search-search-for-manga-Hi-no-Tori-1-expected.png
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: Manga-Search-search-for-manga-Hi-no-Tori-1-actual.png (image/png) ---------------
+    test-results\data_driven-manga-search-Manga-Search-search-for-manga-Hi-no-Tori--Demo-Mobile-Chrome\Manga-Search-search-for-manga-Hi-no-Tori-1-actual.png
+    ------------------------------------------------------------------------------------------------
+
+    attachment #3: Manga-Search-search-for-manga-Hi-no-Tori-1-diff.png (image/png) -----------------
+    test-results\data_driven-manga-search-Manga-Search-search-for-manga-Hi-no-Tori--Demo-Mobile-Chrome\Manga-Search-search-for-manga-Hi-no-Tori-1-diff.png
+    ------------------------------------------------------------------------------------------------
+
+    attachment #4: trace (application/zip) ---------------------------------------------------------
+    test-results\data_driven-manga-search-Manga-Search-search-for-manga-Hi-no-Tori--Demo-Mobile-Chrome\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\data_driven-manga-search-Manga-Search-search-for-manga-Hi-no-Tori--Demo-Mobile-Chrome\trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    Retry #1 ---------------------------------------------------------------------------------------
+
+    Error: Screenshot comparison failed:
+
+      20885 pixels (ratio 0.01 of all image pixels) are different
+
+    Expected: D:\research\automation\playwright\typescript\playwright-nopcommerce\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Hi-no-Tori--Demo-Mobile-Chrome-retry1\Manga-Search-search-for-manga-Hi-no-Tori-1-expected.png
+    Received: D:\research\automation\playwright\typescript\playwright-nopcommerce\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Hi-no-Tori--Demo-Mobile-Chrome-retry1\Manga-Search-search-for-manga-Hi-no-Tori-1-actual.png
+        Diff: D:\research\automation\playwright\typescript\playwright-nopcommerce\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Hi-no-Tori--Demo-Mobile-Chrome-retry1\Manga-Search-search-for-manga-Hi-no-Tori-1-diff.png
+
+      22 |         animations: 'disabled',
+      23 |         mask: [page.locator('.widget-content'), page.locator('.banner-header-anime-straming'), page.locator('.ranking-unit')]
+    > 24 |     })).toMatchSnapshot();
+         |         ^
+      25 | });
+      26 |
+      27 | test.describe('Manga Search', () => {
+
+        at D:\research\automation\playwright\typescript\playwright-nopcommerce\tests\demo\data_driven\manga-search.spec.ts:24:9
+
+    attachment #1: Manga-Search-search-for-manga-Hi-no-Tori-1-expected.png (image/png) -------------
+    test-results\data_driven-manga-search-Manga-Search-search-for-manga-Hi-no-Tori--Demo-Mobile-Chrome-retry1\Manga-Search-search-for-manga-Hi-no-Tori-1-expected.png
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: Manga-Search-search-for-manga-Hi-no-Tori-1-actual.png (image/png) ---------------
+    test-results\data_driven-manga-search-Manga-Search-search-for-manga-Hi-no-Tori--Demo-Mobile-Chrome-retry1\Manga-Search-search-for-manga-Hi-no-Tori-1-actual.png
+    ------------------------------------------------------------------------------------------------
+
+    attachment #3: Manga-Search-search-for-manga-Hi-no-Tori-1-diff.png (image/png) -----------------
+    test-results\data_driven-manga-search-Manga-Search-search-for-manga-Hi-no-Tori--Demo-Mobile-Chrome-retry1\Manga-Search-search-for-manga-Hi-no-Tori-1-diff.png
+    ------------------------------------------------------------------------------------------------
+
+    attachment #4: trace (application/zip) ---------------------------------------------------------
+    test-results\data_driven-manga-search-Manga-Search-search-for-manga-Hi-no-Tori--Demo-Mobile-Chrome-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\data_driven-manga-search-Manga-Search-search-for-manga-Hi-no-Tori--Demo-Mobile-Chrome-retry1\trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    Retry #2 ---------------------------------------------------------------------------------------
+
+    Error: Screenshot comparison failed:
+
+      239134 pixels (ratio 0.05 of all image pixels) are different
+
+    Expected: D:\research\automation\playwright\typescript\playwright-nopcommerce\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Hi-no-Tori--Demo-Mobile-Chrome-retry2\Manga-Search-search-for-manga-Hi-no-Tori-1-expected.png
+    Received: D:\research\automation\playwright\typescript\playwright-nopcommerce\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Hi-no-Tori--Demo-Mobile-Chrome-retry2\Manga-Search-search-for-manga-Hi-no-Tori-1-actual.png
+        Diff: D:\research\automation\playwright\typescript\playwright-nopcommerce\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Hi-no-Tori--Demo-Mobile-Chrome-retry2\Manga-Search-search-for-manga-Hi-no-Tori-1-diff.png
+
+      22 |         animations: 'disabled',
+      23 |         mask: [page.locator('.widget-content'), page.locator('.banner-header-anime-straming'), page.locator('.ranking-unit')]
+    > 24 |     })).toMatchSnapshot();
+         |         ^
+      25 | });
+      26 |
+      27 | test.describe('Manga Search', () => {
+
+        at D:\research\automation\playwright\typescript\playwright-nopcommerce\tests\demo\data_driven\manga-search.spec.ts:24:9
+
+    attachment #1: Manga-Search-search-for-manga-Hi-no-Tori-1-expected.png (image/png) -------------
+    test-results\data_driven-manga-search-Manga-Search-search-for-manga-Hi-no-Tori--Demo-Mobile-Chrome-retry2\Manga-Search-search-for-manga-Hi-no-Tori-1-expected.png
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: Manga-Search-search-for-manga-Hi-no-Tori-1-actual.png (image/png) ---------------
+    test-results\data_driven-manga-search-Manga-Search-search-for-manga-Hi-no-Tori--Demo-Mobile-Chrome-retry2\Manga-Search-search-for-manga-Hi-no-Tori-1-actual.png
+    ------------------------------------------------------------------------------------------------
+
+    attachment #3: Manga-Search-search-for-manga-Hi-no-Tori-1-diff.png (image/png) -----------------
+    test-results\data_driven-manga-search-Manga-Search-search-for-manga-Hi-no-Tori--Demo-Mobile-Chrome-retry2\Manga-Search-search-for-manga-Hi-no-Tori-1-diff.png
+    ------------------------------------------------------------------------------------------------
+
+    attachment #4: trace (application/zip) ---------------------------------------------------------
+    test-results\data_driven-manga-search-Manga-Search-search-for-manga-Hi-no-Tori--Demo-Mobile-Chrome-retry2\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\data_driven-manga-search-Manga-Search-search-for-manga-Hi-no-Tori--Demo-Mobile-Chrome-retry2\trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+</failure>
+<system-out>
+
+[[ATTACHMENT|..\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Hi-no-Tori--Demo-Mobile-Chrome\Manga-Search-search-for-manga-Hi-no-Tori-1-expected.png]]
+
+[[ATTACHMENT|..\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Hi-no-Tori--Demo-Mobile-Chrome\Manga-Search-search-for-manga-Hi-no-Tori-1-actual.png]]
+
+[[ATTACHMENT|..\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Hi-no-Tori--Demo-Mobile-Chrome\Manga-Search-search-for-manga-Hi-no-Tori-1-diff.png]]
+
+[[ATTACHMENT|..\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Hi-no-Tori--Demo-Mobile-Chrome\trace.zip]]
+
+[[ATTACHMENT|..\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Hi-no-Tori--Demo-Mobile-Chrome-retry1\Manga-Search-search-for-manga-Hi-no-Tori-1-expected.png]]
+
+[[ATTACHMENT|..\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Hi-no-Tori--Demo-Mobile-Chrome-retry1\Manga-Search-search-for-manga-Hi-no-Tori-1-actual.png]]
+
+[[ATTACHMENT|..\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Hi-no-Tori--Demo-Mobile-Chrome-retry1\Manga-Search-search-for-manga-Hi-no-Tori-1-diff.png]]
+
+[[ATTACHMENT|..\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Hi-no-Tori--Demo-Mobile-Chrome-retry1\trace.zip]]
+
+[[ATTACHMENT|..\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Hi-no-Tori--Demo-Mobile-Chrome-retry2\Manga-Search-search-for-manga-Hi-no-Tori-1-expected.png]]
+
+[[ATTACHMENT|..\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Hi-no-Tori--Demo-Mobile-Chrome-retry2\Manga-Search-search-for-manga-Hi-no-Tori-1-actual.png]]
+
+[[ATTACHMENT|..\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Hi-no-Tori--Demo-Mobile-Chrome-retry2\Manga-Search-search-for-manga-Hi-no-Tori-1-diff.png]]
+
+[[ATTACHMENT|..\test-results\data_driven-manga-search-Manga-Search-search-for-manga-Hi-no-Tori--Demo-Mobile-Chrome-retry2\trace.zip]]
+
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="demo\example.spec.ts" timestamp="1652196342915" hostname="" tests="25" failures="0" skipped="0" time="16.038" errors="0">
+<testcase name="New Todo should allow me to add todo items" classname="[Demo Mobile Chrome] › demo\example.spec.ts:14:3 › New Todo › should allow me to add todo items" time="1.661">
+<system-out>
+
+[[ATTACHMENT|..\test-results\example-New-Todo-should-allow-me-to-add-todo-items-Demo-Mobile-Chrome\trace.zip]]
+
+</system-out>
+</testcase>
+<testcase name="New Todo should clear text input field when an item is added" classname="[Demo Mobile Chrome] › demo\example.spec.ts:37:3 › New Todo › should clear text input field when an item is added" time="0.449">
+<system-out>
+
+[[ATTACHMENT|..\test-results\example-New-Todo-should-clear-text-input-field-when-an-item-is-added-Demo-Mobile-Chrome\trace.zip]]
+
+</system-out>
+</testcase>
+<testcase name="New Todo should append new items to the bottom of the list" classname="[Demo Mobile Chrome] › demo\example.spec.ts:47:3 › New Todo › should append new items to the bottom of the list" time="0.582">
+<system-out>
+
+[[ATTACHMENT|..\test-results\example-New-Todo-should-append-new-items-to-the-bottom-of-the-list-Demo-Mobile-Chrome\trace.zip]]
+
+</system-out>
+</testcase>
+<testcase name="New Todo should show #main and #footer when items added" classname="[Demo Mobile Chrome] › demo\example.spec.ts:61:3 › New Todo › should show #main and #footer when items added" time="0.496">
+<system-out>
+
+[[ATTACHMENT|..\test-results\example-New-Todo-should-show-main-and-footer-when-items-added-Demo-Mobile-Chrome\trace.zip]]
+
+</system-out>
+</testcase>
+<testcase name="Mark all as completed should allow me to mark all items as completed" classname="[Demo Mobile Chrome] › demo\example.spec.ts:81:3 › Mark all as completed › should allow me to mark all items as completed" time="0.608">
+<system-out>
+
+[[ATTACHMENT|..\test-results\example-Mark-all-as-completed-should-allow-me-to-mark-all-items-as-completed-Demo-Mobile-Chrome\trace.zip]]
+
+</system-out>
+</testcase>
+<testcase name="Mark all as completed should allow me to clear the complete state of all items" classname="[Demo Mobile Chrome] › demo\example.spec.ts:90:3 › Mark all as completed › should allow me to clear the complete state of all items" time="0.639">
+<system-out>
+
+[[ATTACHMENT|..\test-results\example-Mark-all-as-completed-should-allow-me-to-clear-the-complete-state-of-all-items-Demo-Mobile-Chrome\trace.zip]]
+
+</system-out>
+</testcase>
+<testcase name="Mark all as completed complete all checkbox should update state when items are completed / cleared" classname="[Demo Mobile Chrome] › demo\example.spec.ts:99:3 › Mark all as completed › complete all checkbox should update state when items are completed / cleared" time="0.721">
+<system-out>
+
+[[ATTACHMENT|..\test-results\example-Mark-all-as-completed-complete-all-che-c0382-d-update-state-when-items-are-completed-cleared-Demo-Mobile-Chrome\trace.zip]]
+
+</system-out>
+</testcase>
+<testcase name="Item should allow me to mark items as complete" classname="[Demo Mobile Chrome] › demo\example.spec.ts:122:3 › Item › should allow me to mark items as complete" time="0.636">
+<system-out>
+
+[[ATTACHMENT|..\test-results\example-Item-should-allow-me-to-mark-items-as-complete-Demo-Mobile-Chrome\trace.zip]]
+
+</system-out>
+</testcase>
+<testcase name="Item should allow me to un-mark items as complete" classname="[Demo Mobile Chrome] › demo\example.spec.ts:144:3 › Item › should allow me to un-mark items as complete" time="0.615">
+<system-out>
+
+[[ATTACHMENT|..\test-results\example-Item-should-allow-me-to-un-mark-items-as-complete-Demo-Mobile-Chrome\trace.zip]]
+
+</system-out>
+</testcase>
+<testcase name="Item should allow me to edit an item" classname="[Demo Mobile Chrome] › demo\example.spec.ts:164:3 › Item › should allow me to edit an item" time="0.615">
+<system-out>
+
+[[ATTACHMENT|..\test-results\example-Item-should-allow-me-to-edit-an-item-Demo-Mobile-Chrome\trace.zip]]
+
+</system-out>
+</testcase>
+<testcase name="Editing should hide other controls when editing" classname="[Demo Mobile Chrome] › demo\example.spec.ts:190:3 › Editing › should hide other controls when editing" time="0.551">
+<system-out>
+
+[[ATTACHMENT|..\test-results\example-Editing-should-hide-other-controls-when-editing-Demo-Mobile-Chrome\trace.zip]]
+
+</system-out>
+</testcase>
+<testcase name="Editing should save edits on blur" classname="[Demo Mobile Chrome] › demo\example.spec.ts:198:3 › Editing › should save edits on blur" time="0.601">
+<system-out>
+
+[[ATTACHMENT|..\test-results\example-Editing-should-save-edits-on-blur-Demo-Mobile-Chrome\trace.zip]]
+
+</system-out>
+</testcase>
+<testcase name="Editing should trim entered text" classname="[Demo Mobile Chrome] › demo\example.spec.ts:212:3 › Editing › should trim entered text" time="0.587">
+<system-out>
+
+[[ATTACHMENT|..\test-results\example-Editing-should-trim-entered-text-Demo-Mobile-Chrome\trace.zip]]
+
+</system-out>
+</testcase>
+<testcase name="Editing should remove the item if an empty text string was entered" classname="[Demo Mobile Chrome] › demo\example.spec.ts:226:3 › Editing › should remove the item if an empty text string was entered" time="0.605">
+<system-out>
+
+[[ATTACHMENT|..\test-results\example-Editing-should-remove-the-item-if-an-empty-text-string-was-entered-Demo-Mobile-Chrome\trace.zip]]
+
+</system-out>
+</testcase>
+<testcase name="Editing should cancel edits on escape" classname="[Demo Mobile Chrome] › demo\example.spec.ts:238:3 › Editing › should cancel edits on escape" time="0.589">
+<system-out>
+
+[[ATTACHMENT|..\test-results\example-Editing-should-cancel-edits-on-escape-Demo-Mobile-Chrome\trace.zip]]
+
+</system-out>
+</testcase>
+<testcase name="Counter should display the current number of todo items" classname="[Demo Mobile Chrome] › demo\example.spec.ts:247:3 › Counter › should display the current number of todo items" time="0.532">
+<system-out>
+
+[[ATTACHMENT|..\test-results\example-Counter-should-display-the-current-number-of-todo-items-Demo-Mobile-Chrome\trace.zip]]
+
+</system-out>
+</testcase>
+<testcase name="Clear completed button should display the correct text" classname="[Demo Mobile Chrome] › demo\example.spec.ts:265:3 › Clear completed button › should display the correct text" time="0.602">
+<system-out>
+
+[[ATTACHMENT|..\test-results\example-Clear-completed-button-should-display-the-correct-text-Demo-Mobile-Chrome\trace.zip]]
+
+</system-out>
+</testcase>
+<testcase name="Clear completed button should remove completed items when clicked" classname="[Demo Mobile Chrome] › demo\example.spec.ts:270:3 › Clear completed button › should remove completed items when clicked" time="0.61">
+<system-out>
+
+[[ATTACHMENT|..\test-results\example-Clear-completed-button-should-remove-completed-items-when-clicked-Demo-Mobile-Chrome\trace.zip]]
+
+</system-out>
+</testcase>
+<testcase name="Clear completed button should be hidden when there are no items that are completed" classname="[Demo Mobile Chrome] › demo\example.spec.ts:278:3 › Clear completed button › should be hidden when there are no items that are completed" time="0.608">
+<system-out>
+
+[[ATTACHMENT|..\test-results\example-Clear-completed-button-should-be-hidden-when-there-are-no-items-that-are-completed-Demo-Mobile-Chrome\trace.zip]]
+
+</system-out>
+</testcase>
+<testcase name="Persistence should persist its data" classname="[Demo Mobile Chrome] › demo\example.spec.ts:286:3 › Persistence › should persist its data" time="0.623">
+<system-out>
+
+[[ATTACHMENT|..\test-results\example-Persistence-should-persist-its-data-Demo-Mobile-Chrome\trace.zip]]
+
+</system-out>
+</testcase>
+<testcase name="Routing should allow me to display active items" classname="[Demo Mobile Chrome] › demo\example.spec.ts:316:3 › Routing › should allow me to display active items" time="0.604">
+<system-out>
+
+[[ATTACHMENT|..\test-results\example-Routing-should-allow-me-to-display-active-items-Demo-Mobile-Chrome\trace.zip]]
+
+</system-out>
+</testcase>
+<testcase name="Routing should respect the back button" classname="[Demo Mobile Chrome] › demo\example.spec.ts:324:3 › Routing › should respect the back button" time="0.694">
+<system-out>
+
+[[ATTACHMENT|..\test-results\example-Routing-should-respect-the-back-button-Demo-Mobile-Chrome\trace.zip]]
+
+</system-out>
+</testcase>
+<testcase name="Routing should allow me to display completed items" classname="[Demo Mobile Chrome] › demo\example.spec.ts:348:3 › Routing › should allow me to display completed items" time="0.583">
+<system-out>
+
+[[ATTACHMENT|..\test-results\example-Routing-should-allow-me-to-display-completed-items-Demo-Mobile-Chrome\trace.zip]]
+
+</system-out>
+</testcase>
+<testcase name="Routing should allow me to display all items" classname="[Demo Mobile Chrome] › demo\example.spec.ts:355:3 › Routing › should allow me to display all items" time="0.631">
+<system-out>
+
+[[ATTACHMENT|..\test-results\example-Routing-should-allow-me-to-display-all-items-Demo-Mobile-Chrome\trace.zip]]
+
+</system-out>
+</testcase>
+<testcase name="Routing should highlight the currently applied filter" classname="[Demo Mobile Chrome] › demo\example.spec.ts:364:3 › Routing › should highlight the currently applied filter" time="0.596">
+<system-out>
+
+[[ATTACHMENT|..\test-results\example-Routing-should-highlight-the-currently-applied-filter-Demo-Mobile-Chrome\trace.zip]]
+
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="demo\geolocation.spec.ts" timestamp="1652196342915" hostname="" tests="1" failures="0" skipped="0" time="11.366" errors="0">
+<testcase name="Map zoomout" classname="[Demo Mobile Chrome] › demo\geolocation.spec.ts:16:1 › Map zoomout" time="11.366">
+<system-out>
+https://www.openstreetmap.org/#map=19/23.65396/116.62260
+
+[[ATTACHMENT|..\test-results\geolocation-Map-zoomout-Demo-Mobile-Chrome\trace.zip]]
+
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="demo\shadowdom.spec.ts" timestamp="1652196342915" hostname="" tests="1" failures="0" skipped="0" time="9.36" errors="0">
+<testcase name="Shadow DOM demo shop now" classname="[Demo Mobile Chrome] › demo\shadowdom.spec.ts:13:5 › Shadow DOM demo › shop now" time="9.36">
+<system-out>
+
+[[ATTACHMENT|..\test-results\shadowdom-Shadow-DOM-demo-shop-now-Demo-Mobile-Chrome\trace.zip]]
+
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

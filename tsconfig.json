@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        // "strict": true,
+        "module": "es6",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "forceConsistentCasingInFileNames": true,
+        "baseUrl": ".",
+        "paths": {
+            "@core/*": [
+                "core/*"
+            ],
+            "@config/*": [
+                "config/*"
+            ],
+            "@constants/*": [
+                "constants/*"
+            ],
+            "@pages/*": [
+                "pages/*"
+            ],
+            "@fixtures/*": [
+                "fixtures/*"
+            ],
+            "@data/*": [
+                "data/*"
+            ],
+            "@models/*": [
+                "models/*"
+            ],
+            "@helpers/*": [
+                "helpers/*"
+            ],
+        }
+    }
+}

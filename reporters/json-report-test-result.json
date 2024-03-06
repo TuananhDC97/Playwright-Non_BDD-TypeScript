@@ -1,0 +1,215 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "D:/research/automation/playwright/typescript/official_docs/ebay/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "name": "chromium",
+        "testDir": "D:/research/automation/playwright/typescript/official_docs/ebay/tests",
+        "testIgnore": [
+          ""
+        ],
+        "testMatch": [
+          "**/?(*.)@(spec|test).*"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "./reporters/json-report-test-result.json"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "./reporters/junit-report-test-result.xml"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "rootDir": "D:/research/automation/playwright/typescript/official_docs/ebay/tests",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.21.0",
+    "workers": 3,
+    "webServer": null,
+    "_attachments": [],
+    "_configDir": "D:\\research\\automation\\playwright\\typescript\\official_docs\\ebay",
+    "_testGroupsCount": 1,
+    "_screenshotsDir": ""
+  },
+  "suites": [
+    {
+      "title": "data_driven\\manga-search.spec.ts",
+      "file": "data_driven/manga-search.spec.ts",
+      "line": 0,
+      "column": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Manga Search",
+          "file": "data_driven/manga-search.spec.ts",
+          "line": 59,
+          "column": 6,
+          "specs": [
+            {
+              "title": "search for manga: value 1 ",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 7875,
+                      "stdout": [
+                        {
+                          "text": "value 1 Fullmetal Alchemist foobar1\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "D:\\research\\automation\\playwright\\typescript\\official_docs\\ebay\\test-results\\data_driven-manga-search-Manga-Search-search-for-manga-value-1--chromium\\trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\research\\automation\\playwright\\typescript\\official_docs\\ebay\\test-results\\data_driven-manga-search-Manga-Search-search-for-manga-value-1--chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "data_driven/manga-search.spec.ts",
+              "line": 62,
+              "column": 9
+            },
+            {
+              "title": "search for manga: value 3 ",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 6393,
+                      "stdout": [
+                        {
+                          "text": "value 3 Spy x Family foobar321\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "D:\\research\\automation\\playwright\\typescript\\official_docs\\ebay\\test-results\\data_driven-manga-search-Manga-Search-search-for-manga-value-3--chromium\\trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\research\\automation\\playwright\\typescript\\official_docs\\ebay\\test-results\\data_driven-manga-search-Manga-Search-search-for-manga-value-3--chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "data_driven/manga-search.spec.ts",
+              "line": 62,
+              "column": 9
+            },
+            {
+              "title": "search for manga: value 4 ",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 5978,
+                      "stdout": [
+                        {
+                          "text": "value 4 Hi no Tori foobar4321\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "D:\\research\\automation\\playwright\\typescript\\official_docs\\ebay\\test-results\\data_driven-manga-search-Manga-Search-search-for-manga-value-4--chromium\\trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\research\\automation\\playwright\\typescript\\official_docs\\ebay\\test-results\\data_driven-manga-search-Manga-Search-search-for-manga-value-4--chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "data_driven/manga-search.spec.ts",
+              "line": 62,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,39 @@
+{
+  "name": "playwright-non-bdd-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --ext .ts",
+    "test:all": "npx playwright test",
+    "test:bookstore-chromium": "npx playwright test --project=bookstore-chromium",
+    "test:bookstore-firefox": "npx playwright test --project=bookstore-firefox",
+    "test:bookstore-api": "npx playwright test --project=bookstore-api",
+    "test:bookstore:all:chromium": "npx playwright test --project=bookstore-chromium --grep \"@bookstore\" --grep-invert \"@ignore\"" ,
+    "test:bookstore:login:chromium": "npx playwright test --project=bookstore-chromium --grep \"@login\" --grep-invert \"@ignore\"",
+    "test:bookstore:profile:chromium": "npx playwright test --project=bookstore-chromium --grep \"@profile\" --grep-invert \"@ignore\"",
+    "test:bookstore:update-snapshots": "npx playwright test --project=bookstore-chromium --grep \"@bookstore\" --grep-invert \"@ignore\" --update-snapshots",
+    "test:bookstore:login:update-snapshots": "npx playwright test --project=bookstore-chromium --grep \"@login\" --grep-invert \"@ignore\" --update-snapshots",
+    "test:bookstore:profile:update-snapshots": "npx playwright test --project=bookstore-chromium --grep \"@profile\" --grep-invert \"@ignore\" --update-snapshots",
+    "create:report": "npx playwright show-report",
+    "create:allure-report": "allure generate ./test-results/allure -o allure-report --clean & allure open allure-report"
+  },
+  "keywords": [],
+  "author": "Minh Kha",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.35.1",
+    "@types/node": "^17.0.33",
+    "@typescript-eslint/eslint-plugin": "^5.59.0",
+    "@typescript-eslint/parser": "^5.59.0",
+    "allure-playwright": "^2.0.0-beta.15",
+    "clipboardy": "^2.3.0",
+    "csv": "^6.0.5",
+    "csv-parse": "^5.0.4",
+    "csv-parser": "^3.0.0",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^16.0.0",
+    "eslint": "^8.38.0",
+    "eslint-plugin-playwright": "^0.12.0"
+  }
+}

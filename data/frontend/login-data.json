@@ -1,0 +1,14 @@
+{
+    "ValidData": {
+        "ValidAccount": {
+            "Username": "$$USERNAME$$",
+            "Password": "$$PASSWORD$$"
+        }
+    },
+    "InvalidData": {
+        "InvalidUsernameOrPassword": {
+            "Username": "abc123",
+            "Password": "123456"
+        }
+    }
+}

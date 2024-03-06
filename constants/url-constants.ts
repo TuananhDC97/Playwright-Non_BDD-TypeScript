@@ -1,0 +1,1 @@
+export const FRONTEND_BASE_URL = 'https://demoqa.com/';

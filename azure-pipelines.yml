@@ -1,0 +1,63 @@
+# Node.js
+# Build a general Node.js project with npm.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
+
+trigger:
+- master
+
+pool:
+  name: Default
+  vmImage: 'windows-2019'
+
+# use below docker container for linux
+# container: mcr.microsoft.com/playwright:v1.21.0-focal
+
+steps:
+- task: NodeTool@0
+  inputs:
+    versionSpec: '16.x'
+  displayName: 'Install Node.js'
+
+- script: |
+    npm ci
+  displayName: 'Install browser dependencies'
+
+- script: |
+    npx playwright install-deps
+  displayName: 'Install browser dependencies'
+
+- script: |
+    npx playwright install
+  displayName: 'Install Playwright'
+
+- script: |
+    npx playwright test
+  displayName: 'Run Playwright Test'  
+  env:
+    NOPCOMMERCE_USERNAME: $(NOPCOMMERCE_USERNAME)
+    NOPCOMMERCE_PASSWORD: $(NOPCOMMERCE_PASSWORD)
+
+- task: PublishTestResults@2
+  displayName: 'Publish Test Results'
+  condition: succeededOrFailed()
+  inputs:
+    testResultsFormat: 'JUnit'
+    testResultsFiles: '**/junit-report-*.xml'
+    mergeTestResults: true
+    buildPlatform: 'x64'
+    publishRunAttachments: true
+
+- task: PublishPipelineArtifact@1
+  displayName: 'Publish Test Results Artifact'
+  condition: succeededOrFailed()
+  inputs:
+    targetPath: '$(Build.SourcesDirectory)/test-results'
+    artifact: 'test-results'
+
+- task: PublishPipelineArtifact@1
+  displayName: 'Publish Screenshot Artifact'
+  condition: succeededOrFailed()
+  inputs:
+    targetPath: '$(Build.SourcesDirectory)/**/*-snapshots'
+    artifact: 'screenshots'
